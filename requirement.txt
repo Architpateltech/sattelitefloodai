@@ -1,9 +1,0 @@
-PySide6
-opencv-python
-pillow
-numpy
-matplotlib
-torch
-torchvision
-rasterio
-reportlab

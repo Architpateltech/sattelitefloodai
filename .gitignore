@@ -19,7 +19,11 @@ env/
 # Jupyter
 .ipynb_checkpoints
 
-# Data, outputs, models
+# Data, outputs, datasets
+SEN12FLOOD/
+data/Sen1Floods11_HandLabeled/
+*.db
+*.sqlite3
 
 # OS files
 .DS_Store

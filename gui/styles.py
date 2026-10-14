@@ -1,79 +1,69 @@
 STYLE = """
-
 QMainWindow {
-
-    background-color: #0b1220;
-
+    background-color: #e0f8f1; /* Light mixed background */
 }
-
-
 
 QFrame {
-
-    background-color: #111827;
-
+    background-color: #ffffff;
+    border: 2px solid #bae6fd;
     border-radius: 12px;
-
 }
-
-
 
 QLabel {
-
-    color: white;
-
+    color: #064e3b;
+    font-weight: bold;
+    border: none;
 }
-
-
 
 QPushButton {
-
-    background-color: #2563eb;
-
-    color: white;
-
+    background-color: #ffffff;
+    color: #064e3b;
+    border: 2px solid #064e3b;
     border-radius: 8px;
-
     padding: 10px;
-
     font-size: 15px;
-
+    font-weight: bold;
 }
-
-
 
 QPushButton:hover {
-
-    background-color: #1d4ed8;
-
+    background-color: #e0f2fe;
+    border-color: #0284c7;
+    color: #0284c7;
 }
-
-
 
 QTextEdit {
-
-    background-color: #020617;
-
-    color: #22c55e;
-
+    background-color: #ffffff;
+    color: #064e3b;
+    border: 2px solid #bae6fd;
     border-radius: 10px;
-
     padding: 10px;
-
-    font-size: 14px;
-
+    font-size: 15px;
 }
-
-
 
 QTableWidget {
-
-    background-color: #020617;
-
-    color: white;
-
+    background-color: #ffffff;
+    color: #064e3b;
+    gridline-color: #bae6fd;
+    border: 2px solid #bae6fd;
 }
 
+QHeaderView::section {
+    background-color: #e0f2fe;
+    color: #064e3b;
+    font-weight: bold;
+    border: 1px solid #bae6fd;
+}
 
+QProgressBar {
+    border: 2px solid #bae6fd;
+    border-radius: 5px;
+    text-align: center;
+    color: #064e3b;
+    font-weight: bold;
+}
 
+QProgressBar::chunk {
+    background-color: #38bdf8;
+    width: 20px;
+}
 """
