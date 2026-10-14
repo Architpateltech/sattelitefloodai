@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs and editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data, outputs, models
+datasets/
+output/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
