@@ -20,9 +20,6 @@ env/
 .ipynb_checkpoints
 
 # Data, outputs, models
-datasets/
-output/
-models/
 
 # OS files
 .DS_Store
